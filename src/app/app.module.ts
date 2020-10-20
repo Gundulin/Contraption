@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MysticValeCompanionComponent } from './mystic-vale-companion/mystic-vale-companion.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MysticValeCompanionComponent
   ],
   imports: [
     BrowserModule,
