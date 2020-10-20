@@ -1,7 +1,31 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"> -->
 <h1>Mystic Vale Companion</h1>
 
 
 <div class="corruption">
-    <button (click)="subtractCorruption()">-</button><h3>{{corruption}}</h3><button (click)="addCorruption()">+</button>
+    <button (click)="decreaseValue(corruption)">-</button><h3>Corruption: {{corruption.quantity}}</h3><button (click)="increaseValue(corruption)">+</button>
+</div>
+
+<div class="mana">
+    <button (click)="decreaseValue(mana)">-</button><h3>Mana: {{mana.quantity}}</h3><button (click)="increaseValue(mana)">+</button>
+</div>
+
+<div class="animalSpirit">
+    <button (click)="decreaseValue(animalSpirit)">-</button><h3>Animal Spirit: {{animalSpirit.quantity}}</h3><button (click)="increaseValue(animalSpirit)">+</button>
+</div>
+
+<div class="forestSpirit">
+    <button (click)="decreaseValue(forestSpirit)">-</button><h3>Forest Spirit: {{forestSpirit.quantity}}</h3><button (click)="increaseValue(forestSpirit)">+</button>
+</div>
+
+<div class="skySpirit">
+    <button (click)="decreaseValue(skySpirit)">-</button><h3>Sky Spirit: {{skySpirit.quantity}}</h3><button (click)="increaseValue(skySpirit)">+</button>
+</div>
+
+<div class="wildSpirit">
+    <button (click)="decreaseValue(wildSpirit)">-</button><h3>Wild: Spirit: {{wildSpirit.quantity}}</h3><button (click)="increaseValue(wildSpirit)">+</button>
+</div>
+
+<div class="victoryPoint">
+    <button (click)="decreaseValue(victoryPoint)">-</button><h3>Victory Points: {{victoryPoint.quantity}}</h3><button (click)="increaseValue(victoryPoint)">+</button>
 </div>
