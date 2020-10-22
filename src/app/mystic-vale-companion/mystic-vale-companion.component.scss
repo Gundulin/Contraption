@@ -1,11 +1,24 @@
 .corruption {
-    display: inline-block;
+    display: block;
 }
 
-.corruption h3 {
-    margin: 10px;
+h3 {
+    display: inline;
+    margin: 10pt;
 }
 
-.corruption button {
-    padding: 5px;
+.mystic-vale-counter {
+    display: block;
+    margin: 10pt;
+}
+
+button {
+    padding: 10pt;
+}
+
+.mystic-vale-flexcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
